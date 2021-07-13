@@ -1,0 +1,205 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+@media (max-width:341px)
+{
+    #container1{
+        display: grid;
+        background-image: url("./Model-S-Mobile.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        grid-column: 50px 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-rows: 100px 200px 100px 130px 50px 60px ;
+        grid-template-areas:
+        "item-1 item-1 item-1 item-1 item-1 item-2 item-2 item-2" 
+        "item-3 item-3 item-3 item-3 item-3 item-3 item-3 item-3"
+        "item-3 item-3 item-3 item-3 item-3 item-3 item-3 item-3"
+        "item-4 item-4 item-4 item-5 item-5 item-6 item-6 item-6"
+        "item-7 item-7 item-7 item-8 item-8 item-9 item-9 item-9";
+
+
+        justify-content: space-around;
+    }
+
+    #item-1{
+        display: flex;
+        grid-area: item-1;
+        margin: 10px 10px 10px 10px;
+        font-size: 2.5em;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    #item-2{
+        display: flex;
+        grid-area: item-2;
+        margin: 50px 20px 27px 40px;
+        border: 1px solid black;
+        padding: 2px;
+        font-size: 1.2em;
+        justify-content:center;
+        align-items: flex-end;
+    }
+
+    #item-3{
+       display: flex;
+        grid-area: item-3;
+        margin: 10px;
+        padding: 10px;
+        font-size: 3.5em;
+        justify-content:center;
+    }
+    #item-4{
+        display: flex;
+        grid-area: item-4;
+        font-size: 2em;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    #item-5{
+        display: flex;
+        grid-area: item-5;
+        font-size: 2em;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    #item-6{
+        display: flex;
+        grid-area: item-6;
+        font-size: 2em;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    #item-7{
+        display: flex;
+        grid-area: item-7;
+        font-size: 1em;
+        color: aliceblue;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #item-8{
+        display: flex;
+        grid-area: item-8;
+        font-size: 1em;
+        color: aliceblue;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #item-9{
+        display: flex;
+        grid-area: item-9;
+        font-size: 1em;
+        color: aliceblue;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+}
+
+@media (max-width:480px)
+{
+    #container1{
+        display: grid;
+        background-image: url("./Model-S-Mobile.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        grid-column: 50px 50px 50px 50px 50px 50px 50px 50px;
+        grid-template-rows: 100px 200px 100px 130px 50px 60px ;
+        grid-template-areas:
+        "item-1 item-1 item-1 item-1 item-1 item-2 item-2 item-2" 
+        "item-3 item-3 item-3 item-3 item-3 item-3 item-3 item-3"
+        "item-3 item-3 item-3 item-3 item-3 item-3 item-3 item-3"
+        "item-4 item-4 item-4 item-5 item-5 item-6 item-6 item-6"
+        "item-7 item-7 item-7 item-8 item-8 item-9 item-9 item-9";
+
+
+        justify-content: space-around;
+    }
+
+    #item-1{
+        display: flex;
+        grid-area: item-1;
+        margin: 10px 10px 10px 10px;
+        padding: 10px 10px 10px 10px;
+        font-size: 2.5em;
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+
+    #item-2{
+        display: flex;
+        grid-area: item-2;
+        margin: 50px 20px 27px 40px;
+        border: 1px solid black;
+        padding: 2px;
+        font-size: 1.2em;
+        justify-content:center;
+        align-items: flex-end;
+    }
+
+    #item-3{
+       display: flex;
+        grid-area: item-3;
+        margin: 10px;
+        padding: 10px;
+        font-size: 3.5em;
+        justify-content:center;
+    }
+    #item-4{
+        display: flex;
+        grid-area: item-4;
+        font-size: 2em;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    #item-5{
+        display: flex;
+        grid-area: item-5;
+        font-size: 2em;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    #item-6{
+        display: flex;
+        grid-area: item-6;
+        font-size: 2em;
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    #item-7{
+        display: flex;
+        grid-area: item-7;
+        font-size: 1em;
+        color: aliceblue;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #item-8{
+        display: flex;
+        grid-area: item-8;
+        font-size: 1em;
+        color: aliceblue;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #item-9{
+        display: flex;
+        grid-area: item-9;
+        font-size: 1em;
+        color: aliceblue;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    
+}
